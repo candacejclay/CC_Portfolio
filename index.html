@@ -7,19 +7,15 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Varela+Round&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap" rel="stylesheet">
-    <title>Sound OFF App </title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&family=Raleway&display=swap" rel="stylesheet">
+    <title>Candace Clay's Portfolio</title>
     </head>
 <body>
     <!--HEADER CONTENT-->
     <section id="navbar-content">
         <nav class="navbar navbar-expand-md">
-            <a class="navbar-logo" href="https://shannonmann911.github.io/UX_UI_HW_19/"><img src="images/logo2.png"></a>
+            <a class="navbar-logo" href="index.html"><img src="images/logo2.png"></a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navigation">
             <span class="navbar-toggler-icon"></span>
@@ -28,7 +24,7 @@
         <div class="collapse navbar-collapse" id="main-navigation">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="index.html">Work</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="about.html">About</a>
@@ -46,9 +42,13 @@
         <div class="container" id="hero-container">
             <div class="row" id="hero-row">
                 <div class="col-12 col-md-6 hero-title">
-                    <h1>Hi! I'm Candace, an aspiring UX/UI designer.</h1>
-                    <p class="inline">I enjoy all things <p id="changingword" class="inline">design!</p></p>
-                    <div class="button"><button class="resume-button">Download Resume</button></div>
+                    <h1>I'm Candace.<br> A UX/UI Designer.</h1>
+                    <p>I love to design, code, and create user-centric designs.</p>
+                    <div class="button">
+                        <a href="images/CandaceClay-Resume.pdf">
+                            <button class="resume-button">Download Resume</button>
+                        </a>
+                    </div>
                 </div>
 
                 <div class="col-12 col-md-6 hero-image">
@@ -64,28 +64,41 @@
     <section id="projects-content">
         <div class="container" id="projects-container">
             <div class="row" id="projects-row">
-                <div class="p-4 col-12 col-md-6 projects-wander">
-                    <a href="https://candacejclay.github.io/UX_UI_HW_20/#"><img src="images/DOE.png" class="img-fluid" id="DOE-image"></a>
+                <div class="p-4 col-12 col-md-6 projects">
+                    <a href="doe.html"><img src="images/DOE.png" class="img-fluid" id="scale"></a>
                 </div>
 
                 <div class="p-4 col-12 col-md-6 projects">
-                    <h2>U.S. Department of Education Redesign</h2>
-                    <h3>Mobile and Desktop</h3>
+                    <h3>UX/UI</h3>
+                    <h2>U.S. Department of Education Website Redesign</h2>
                     <p>The U.S. Department of Education redesign is a class project focusing on the information architecture and user experience.</p>
-                    <a href="https://candacejclay.github.io/UX_UI_HW_20/#"><button class="resume-button">View Case Study</button></a>
+                    <a href="doe.html"><button class="resume-button">View Case Study</button></a>
                 </div>
             </div>
 
             <div class="row" id="projects-row">
                 <div class="p-4 col-12 col-md-6 projects">
-                    <h2 class="inline">Wander</h2>
-                    <h3 class="inline">Mobile App</h3>
-                    <p>Wander is a travel app designed to offer reccomendations on unique destinations, based on the users interests. This class project focuses on the user experience while using travel applications.</p>
-                    <a href="wander-project.html"><button class="resume-button">View Case Study</button></a> 
+                    <h3>UX/UI/FE</h3>
+                    <h2>Duval Audubon Society Website Redesign</h2>
+                    <p>For the final class group project, we redesigned the Duval Audubon Society's website, following the UX/UI/FE process.</p>
+                    <a href="duval.html"><button class="resume-button">View Case Study</button></a> 
                 </div>
 
-                <div class="p-4 col-12 col-md-6 projects-wander">
-                    <a href="#"><img src="images/WANDER1.png" class="img-fluid" id="wander-image"></a>
+                <div class="p-4 col-12 col-md-6 projects">
+                    <a href="duval.html"><img src="images/duval.png" class="img-fluid" id="scale"></a>
+                </div>
+            </div>
+
+            <div class="row" id="projects-row">
+                <div class="p-4 col-12 col-md-6 projects">
+                    <a href="#"><img src="images/WANDER1.png" class="img-fluid" id="scale"></a>
+                </div>
+
+                <div class="p-4 col-12 col-md-6 projects">
+                    <h3>UX/UI</h3>
+                    <h2>Wander App Design</h2>
+                    <p>Wander is a mockup travel app designed to offer reccomendations on unique destinations, based on the users interests. This class project focuses on the user experience while using travel applications.</p>
+                    <a href="wander-project.html"><button class="resume-button">Coming Soon</button></a> 
                 </div>
             </div>
         </div>

@@ -1,0 +1,38 @@
+.header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 55px;
+    font-weight: 800;
+    color: #ff8c00;
+    background-color: #FFF0E3;
+    text-align: center;
+    padding: 40px;
+}
+
+section h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+    color: black;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+section p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    color: black;
+    font-weight: 500;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+/*PROJECT OVERVIEW*/
+#duval-overview {
+    padding: 75px;
+}
+
+#row {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
