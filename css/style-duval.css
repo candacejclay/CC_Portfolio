@@ -17,6 +17,15 @@ section h2 {
     padding-bottom: 7px;
 }
 
+section h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    color: black;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
 section p {
     font-family: 'Raleway', sans-serif;
     font-size: 22px;
@@ -35,4 +44,49 @@ section p {
     padding-top: 30px;
     padding-bottom: 30px;
 
+}
+
+.orange {
+    color: #FDA530;
+}
+
+.red {
+    color: #F86734;
+}
+
+.pink {
+    color: #E23B96;
+}
+
+.green {
+    color: #A3D320;
+}
+
+/*DEFINE*/
+.competitor-analysis img {
+    padding: 10px 0px 10px 0px;
+}
+
+.competitor-analysis ul {
+    padding-left: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+/*DEVELOP*/
+.old-design img {
+    padding: 20px;
+}
+
+.old-design li {
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.layout h3 {
+    text-align: center;
 }

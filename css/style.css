@@ -198,7 +198,6 @@
 @media (min-width: 768px) {
   .resume-button {
     padding: 16px 32px;
-    height: auto;
   }
 }
 
@@ -209,3 +208,5 @@
 .projects img:hover {
   transform: scale(1.1);
 }
+
+

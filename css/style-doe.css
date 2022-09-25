@@ -1,155 +1,50 @@
-.row {
-  display: flex;
-  align-items: center;
-}
-/* HEADER CONTENT */
-#navbar-content {
-    margin: 20px 100px 20px 100px;
-}
 
-.navbar {
-    padding: 20px;
-}
 
-.navbar-logo img {
-    width: 80px;
-    height: 80px;
-}
-
-.nav-link {
-    font-family: 'Montserrat', sans-serif;;
-    font-size: 1em;
-    font-weight: 500;
-    color: #ff8c00;
-    font-weight: 500;
-}
-
-.nav-link:hover {
-  color: #ffd6a3;
-}
-
-.navbar-collapse {
-    justify-content: flex-end;
-}
-
-/* HERO CONTENT*/
-#hero-content {
-    padding-bottom: 50px;
-}
-.hero-title {
-    padding-top: 100px;
-}
-
-.hero-title h1 {
-    font-family:'Bebas Neue', cursive;
-    font-size: 3em;
-    font-weight: 200;
-    color: #ff8c00;
-    letter-spacing: 8px;
-    animation: 2s anim-lineUp ease-out;
-}
-
-@keyframes anim-lineUp {
-  0% {
-    opacity: 0;
-    transform: translateY(80%);
-  }
-  20% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-    transform: translateY(0%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0%);
-  }
-}
-.hero-title p {
-    display:inline;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.5em;
-    font-weight: 300;
-    color: #000000;
-    animation: 2s anim-lineUp ease-out;
-}
-
-#changingword{
-  display:inline;
+section h2 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.5em;
-  font-weight: 800;
+  font-size: 34px;
+  font-weight: 600;
   color: black;
-  letter-spacing: 8px;
-  animation: 2s anim-lineUp ease-out;
-  padding-left: 4px;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 
-.hero-image img {
-  max-width: 120%;
-  height: auto;
+section h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  color: black;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 
-.button {
+section p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+  color: black;
+  font-weight: 500;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.header {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 55px;
+  font-weight: 800;
+  color: #ff8c00;
+  background-color: #FFF0E3;
+  text-align: center;
+  padding: 40px;
+}
+
+#row {
   padding-top: 30px;
-}
+  padding-bottom: 30px;
 
+}
 /*PROJECTS CONTENT */
 .inline {
   display: inline;
-}
-
-.projects h2 {
-  font-family:'Bebas Neue', cursive;
-  font-weight: 200;
-  color: black;
-  letter-spacing: 8px;
-  animation: 2s anim-lineUp ease-out;
-}
-
-.projects h3 {
-  font-family: 'Montserrat', sans-serif;;
-  font-size: 1em;
-  font-weight: 300;
-  color: #ff8c00;
-  letter-spacing: 3px;
-  padding-left: 7px;
-}
-
-.projects p {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1em;
-  font-weight: 300;
-  color: #000000;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-/* FOOTER CONTENT*/
-.footer-title {
-  font-family:'Bebas Neue', cursive;
-  font-weight: 200;
-  color: black;
-  letter-spacing: 8px;
-}
-
-.footer-content {
-    text-align: center;
-    padding-top: 40px;
-}
-
-.social-icons img {
-    width: 40px;
-}
-
-.copyright {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.5em;
-    font-size: 1em;
-    font-weight: 300;
-    color: #ff8c00;
-    text-align: center;
 }
 
 /* RESUME BUTTON*/
@@ -199,65 +94,6 @@
   }
 }
 
-/*ABOUT HERO SECTION*/
-#about-content {
-  padding: 50px;
-}
-
-.about-title h1 {
-  font-family:'Bebas Neue', cursive;
-  font-size: 3em;
-  font-weight: 200;
-  color: #ff8c00;
-  letter-spacing: 8px;
-  animation: 2s anim-lineUp ease-out;
-}
-
-.about-title p {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.2em;
-  font-weight: 300;
-  color: #000000;
-  animation: 2s anim-lineUp ease-out;
-  line-height: 33px;
-}
-
-.about-image img {
-max-width: 120%;
-height: auto;
-}
-
-/*ABOUT - EDUCATION SECTION*/
-
-#about-education-content {
-  padding: 50px;
-}  
-
-.about-education-title h1 {
-  font-family:'Bebas Neue', cursive;
-  font-size: 2.3em;
-  color: #ff8c00;
-  letter-spacing: 5px;
-}
-
-.about-education-schoolname h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.8em;
-  font-style: italic;
-}
-
-.about-education-title h3 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.1em;
-}
-
-.about-education-schoolname p {
-  font-family: 'Montserrat', sans-serif;
-  font-size: .8em;
-  font-weight: 300;
-  color: #505050;
-}
-
 /*DOE CASE STUDY PAGE*/
 #doeprojects-hero-content {
   padding: 30px;
@@ -281,54 +117,6 @@ height: auto;
 
 #doe-casestudy-prototyping {
   padding: 40px;
-}
-
-.DOEcasestudy-title h1 {
-  font-family:'Bebas Neue', cursive;
-  font-size: 3em;
-  font-weight: 200;
-  color: #ff8c00;
-  letter-spacing: 8px;
-  animation: 2s anim-lineUp ease-out;
-}
-
-.DOEcasestudy-title p {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.5em;
-  font-weight: 300;
-  color: #000000;
-  animation: 2s anim-lineUp ease-out;
-}
-
-.DOEcasestudy-content h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.6em;
-  font-weight: 600;
-  padding: 50px 0px 15px 0px;
-}
-
-.DOEcasestudy-headers h1 {
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.3em;
-  font-weight: 600;
-  color: #ff8c00;
-  padding: 25px;
-  border-bottom: 2px solid black;
-  border-top: 2px solid black;
-  letter-spacing: 8px;
-}
-
-.DOEcasestudy-content h3 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1em;
-  font-weight: 600;
-}
-
-.DOEcasestudy-content p {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.1em;
-  font-weight: 500;
 }
 
 .gif-desktop {
